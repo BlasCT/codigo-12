@@ -46,11 +46,11 @@ git add README.md
 ```
 git add .
 ```
-* Creando el primer commit
+* Creando el registro de los cambios realizados:
 ```
 git commit -m "Creando mi primer commit"
 ```
-* Verificando el git commit
+* Verificando el git commit ver una linea de tiempo de los commits que hemos realizado:
 ```
 git log
 ```
