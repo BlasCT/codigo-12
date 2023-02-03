@@ -50,3 +50,7 @@ git add .
 ```
 git commit -m "Creando mi primer commit"
 ```
+* Verificando el git commit
+```
+git log
+```
