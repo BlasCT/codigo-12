@@ -58,4 +58,6 @@ git log
 ```bash
 git show id-de-commit
 ```
-* modificando
+* Para subir el commit al git 
+```
+git push -u origin main
