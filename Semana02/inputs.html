@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blas Condori</title>
+</head>
+<body>
+    <section>
+        <h1>FORMULARIOS</h1>
+        <!--SIRVE PARA CREAR UN FORMULARIO-->
+        <form>
+            <!--LOS INPUT TIENEN TIPOS, por defecto son del tipo texto pero hay más-->
+            <p>
+                <!--required sirve para que un campo sea obligatorio de rellenar-->
+                <input type="text" name="name" placeholder="Coloca tu nombre" autocomplete="off" required />
+            </p>
+            <p>
+                <input type="email" name="email" placeholder="Coloca tu correo" required/>
+            </p>
+            <p>
+                <input type="password" name="password" placeholder="Su contraseña" required/>
+            </p>
+            <p>
+                <!--accept="image/* sirve para que solo acepte archivos tipo imagen"-->
+                <input type="file" accept="image/*, pdf/*" name="image"/>
+            </p>
+            <p>
+                <input type="number" name="phone_number" placeholder="ingresa un numero"/>
+            </p>
+            <p>
+                <input type="date" name="date"/>
+            </p>
+            <p>
+                <input type="time" name="time"/>
+            </p>
+            <p>
+                <input type="datetime-local" name="date_time"/>
+            </p>
+            <p>
+                <input type="checkbox" name="terms"/> Acepta los terminos y condiciones
+            </p>
+            <p>
+                <input type="radio" name="Opcion"/> Opcion 1
+                <input type="radio" name="Opcion"/> Opcion 2
+                <input type="radio" name="Opcion"/> Opcion 3
+                <input type="radio" name="Opcion"/> Opcion 4
+            </p>
+            <p>
+                <button type="submit"> Enviar Datos </button>
+            </p>
+        </form>
+    </section>
+</body>
+</html>
