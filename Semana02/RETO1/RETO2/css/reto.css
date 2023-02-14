@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    background-color: #D5E1EF;
+}
+.main{
+    display: block;
+    width: 320px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 7%;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 26px;
+}
+#img{
+    width: 290px;
+    height: 290px;
+    padding: 14px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 270px;
+    color: hsl(220, 15%, 55%);
+}
