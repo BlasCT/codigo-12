@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+.main {
+    display: flex;
+    /*Para centrar de forma vertical*/
+    justify-content: center;
+    /*Para centrar de horma horizontal*/
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 375px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+}
+img{
+    background-color: hsl(216, 12%, 54%);
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 30px;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    margin-top: 15px;
+    font-weight: 200;
+    color: hsl(217, 12%, 63%);
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.rating button{
+    padding: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);
+    border: none;
+    width: 45px;
+    height: 45px;
+    color: hsl(213, 19%, 18%);
+}
+.rating button:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: white;
+}
+.btn-submit{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.btn-submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+}

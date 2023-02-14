@@ -5,29 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blas Condori</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 </head>
 <body>
-    <section>
+    <section id="sections">
         <h1>FORMULARIOS</h1>
         <!--SIRVE PARA CREAR UN FORMULARIO-->
-        <form>
+        <form class="form_group" autocomplete="off">
             <!--LOS INPUT TIENEN TIPOS, por defecto son del tipo texto pero hay más-->
+            
             <p>
                 <!--required sirve para que un campo sea obligatorio de rellenar-->
-                <input type="text" name="name" placeholder="Coloca tu nombre" autocomplete="off" required />
+                <input  type="text" class="input_nombre" name="name" placeholder="Coloca tu nombre" autocomplete="off" required />
             </p>
             <p>
-                <input type="email" name="email" placeholder="Coloca tu correo" required/>
+                <input type="email" class="input_nombre" name="email" placeholder="Coloca tu correo" autocomplete="off" required/>
             </p>
             <p>
-                <input type="password" name="password" placeholder="Su contraseña" required/>
+                <input type="password" class="input_nombre" name="password" placeholder="Su contraseña" required/>
             </p>
             <p>
                 <!--accept="image/* sirve para que solo acepte archivos tipo imagen"-->
                 <input type="file" accept="image/*, pdf/*" name="image"/>
             </p>
             <p>
-                <input type="number" name="phone_number" placeholder="ingresa un numero"/>
+                <input type="number" class="input_nombre" name="phone_number" placeholder="ingresa un numero"/>
             </p>
             <p>
                 <input type="date" name="date"/>
@@ -48,7 +50,7 @@
                 <input type="radio" name="Opcion"/> Opcion 4
             </p>
             <p>
-                <button type="submit"> Enviar Datos </button>
+                <button id="button" type="submit"> Enviar Datos </button>
             </p>
         </form>
     </section>

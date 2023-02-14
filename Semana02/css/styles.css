@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    font-size: 33px;
+    padding: 20px;
+}
+/*GENERALES*/
+
+.form_group{
+    width: 300px;
+    margin: 40px auto;
+    position: relative;
+    color: #0419527e;
+}
+#sections{
+    font-family: sans-serif, Arial, Helvetica;
+}
+p{
+    font-size: 14px;
+}
+#button{
+    background-color: #0098ee;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    border-color: #0098ee;
+    box-shadow: 0px 0px 10px #0419527e;
+}
+#button:hover{
+    background-color: white;
+    color: #0098ee;
+    cursor: pointer;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    box-shadow: 0px 0px 10px #0419527e inset;
+}
+.input_nombre{
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 3px solid ;
+    border-color: #0098ee ;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 5px black;
+}
+.input_nombre:focus{
+    border-color: #0098ee;
+    border: 1px solid #0098ee;
+}
