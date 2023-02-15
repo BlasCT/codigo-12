@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    background:hsl(217, 54%, 11%);
+}
+.main{
+    display: block;
+    width: 375px;
+    height: 640px;
+    margin: 0 auto;
+    margin-top: 105px;
+    padding: 20px;
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 6%;
+    -webkit-border-radius: 6%;
+    -moz-border-radius: 6%;
+    -ms-border-radius: 6%;
+    -o-border-radius: 6%;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    box-shadow: 0px 30px 40px #000000;
+}
+#card{
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+#img {
+    width: 340px;
+    height: 340px;
+    margin-left: -23px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+h2{
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+p{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#img2,
+#img3{
+    
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: hsl(216, 50%, 16%);
+    position: absolute;
+    
+}
+#img3{
+    display: block;
+    margin-left: 240px;
+}
+#color{
+    display: block;
+    color: aqua;
+    margin-left: 33px;
+    font-size: 18px;
+    margin-top: 30px;
+    
+}
+#days{
+    float: right;
+    margin-top: -25px;
+    margin-right: 20px;
+}
+hr{
+    width: 340px;
+    border-color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+    margin-top: 25px;
+    
+}
+#img4 {
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+a{
+    color: white;
+    background-color: hsl(216, 50%, 16%);
+}
+#final{
+    float: right;
+    margin-top: -35px;
+    margin-right: 80px;
+    font-size: 18px;
+}
